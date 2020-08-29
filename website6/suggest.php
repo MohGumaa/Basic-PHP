@@ -22,5 +22,5 @@
         }
     }
 
-echo $suggestion === '' ? json_encode("No suggestion") : json_encode($suggestion);
+echo $suggestion === '' ? "No suggestion: ($q)" : $suggestion;
 ?>
